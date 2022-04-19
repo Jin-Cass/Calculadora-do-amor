@@ -8,7 +8,9 @@ function ValentineDay(){
 
     if (numeroAleatorio >70){numeroAleatorio =  "you are a wonderful couple " + numeroAleatorio ;
     }
-    else{(numeroAleatorio = "Maybe it works " + numeroAleatorio );
+    if(numeroAleatorio > 30 && numeroAleatorio <=70){numeroAleatorio = "Maybe it works " + numeroAleatorio ;
+    }
+if(numeroAleatorio <=30){numeroAleatorio = "water and oil " + numeroAleatorio ;
     }
     
     
